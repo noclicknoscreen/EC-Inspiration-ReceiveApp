@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Basic-UDP Receiver/Basic-UDP Receiver.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:InspirationReceive Serial/../Basic-UDP Sender/Basic-UDP Sender.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:InspirationReceive Serial/InspirationReceive Serial.xcodeproj">
    </FileRef>
    <Group

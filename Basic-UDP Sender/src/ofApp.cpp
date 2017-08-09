@@ -10,7 +10,8 @@ void ofApp::setup(){
     
     //create the socket and set to send to 127.0.0.1:11999
     udpConnection.Create();
-    udpConnection.Connect("127.0.0.1",11999);
+    //udpConnection.Connect("127.0.0.1",11999); // Localhost communication
+    udpConnection.Connect("192.168.2.112",2390); // Localhost communication
     udpConnection.SetNonBlocking(true);
     
 }

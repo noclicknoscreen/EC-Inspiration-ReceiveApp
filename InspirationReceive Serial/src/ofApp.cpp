@@ -2,15 +2,16 @@
 
 //--------------------------------------------------------------
 void ofApp::setup(){
-    
+    /*
     // open an outgoing connection to HOST:PORT
     sender.setup(HOST, PORT);
-    
+    /*
     volet1.setup(8001);
     volet2.setup(8002);
     volet3.setup(8003);
     volet4.setup(8004);
-    
+    */
+    /*
     // we add this listener before setting up so the initial circle resolution is correct
     track1.addListener(this, &ofApp::track1Pressed);
     track2.addListener(this, &ofApp::track2Pressed);
@@ -30,13 +31,13 @@ void ofApp::setup(){
     
     //create the socket and set to send to 127.0.0.1:11999
     udpConnection.Create();
-    udpConnection.Connect("192.168.2.121",2390);
+    udpConnection.Connect("127.0.0.1",2390);
     udpConnection.SetNonBlocking(true);
     
     int baud = 9600;
     serial.listDevices();
     serial.setup(0, baud); //open the first device
-    
+    */
     
 }
 
@@ -111,7 +112,7 @@ void ofApp::update(){
      }
      */
     
-    
+    /*
     // check Receiver 1 --
     while(volet1.hasWaitingMessages()){
         ofxOscMessage m;
@@ -161,6 +162,8 @@ void ofApp::update(){
             openWipe4 = m.getArgAsFloat(0);
         }
     }
+     */
+
 }
 
 //--------------------------------------------------------------

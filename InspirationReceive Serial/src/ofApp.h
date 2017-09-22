@@ -52,12 +52,12 @@ public:
     ofTrueTypeFont font;
     ofxOscSender sender;
     
-    
+    /*
     ofxOscReceiver volet1;
     ofxOscReceiver volet2;
     ofxOscReceiver volet3;
     ofxOscReceiver volet4;
-    
+    */
     
     // UDP
     ofxUDPManager udpConnection;
